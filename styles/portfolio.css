@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+.btn-primary {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 36px;
+    height: 64px;
+    background: #FD6E0A;
+    border-radius: 5px;
+}
+
+
+/* header and navigation style */
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 200px;
+}
+
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 50px;
+}
+
+/* banner styles */
+.banner {
+    margin: 0 200px;
+    display: flex;
+    align-items: center;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 85px;
+    margin-bottom: 5px;
+}
+
+.banner-sub-title {
+    font-weight: 600;
+    font-size: 45px;
+    margin-bottom: 14px;
+}
+
+.banner-description {
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 36px;
+}
+
+.header {
+    background: #FFF8F3;
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+
+
+
+
+
+
+
+/* main section */
+main {
+    max-width: 1140px;
+    max-height: 550px;
+    margin:79px 195px 130px 230px;
+    background: #FFF8F3;
+   
+}
+/* about section styles */
+.about-me {
+    padding:131px 156px;
+    text-align: center;
+}
+.section-title {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #181818;
+    font-size: 35px;
+    font-weight: 600;
+}
+.section-description {
+    color: #757575;
+    font-size: 18px;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+
+/* table data */
+.table-position{
+        margin: 0 167px 219px 262px ;
+        max-width: 782px;
+        max-height: 60px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-title{
+    font-size: 20px;
+    color: #757575;
+}
+.info-description{
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
+}
